@@ -1,0 +1,30 @@
+body{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(60, 2, 56);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; 
+    height: 150vh;
+    font-family: serif;
+}
+.xbox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    width: 50%;
+    height: 1000px;
+    color: rgb(255, 255, 255);
+    border-radius: 50px;
+    background-color: rgb(142, 75, 180);
+}
+.imgclip{
+    border-radius: 30px;
+    width: 100px;
+    height: 100px;
+    background-image: url(../Images/Chamodi.jpg);
+    background-position: center;
+    background-size: cover;
+}

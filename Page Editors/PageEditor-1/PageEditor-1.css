@@ -1,0 +1,42 @@
+body {
+  text-align: center;
+}
+
+.mainContainer {
+   width: 80%;
+   margin: auto;
+}
+
+fieldset {
+  border-radius: 5vh;
+  margin-bottom: 3vh;
+}
+
+.info {
+  font-weight: bold;
+  font-size: 3vh;
+}
+
+.infoDiv {
+  margin-bottom: 10vh;
+  background-color: rgb(107, 107, 221);
+  padding: 3vh;
+}
+
+button {
+  cursor: pointer;
+  background-color: rgb(107, 107, 221);
+  border-style: none;
+  padding: 2vh;
+  border-radius: 5vh;
+  color: white;
+  transition: 0.25;
+}
+
+button:hover {
+  opacity: 0.5;
+}
+
+button:active {
+  color: aquamarine;
+}
